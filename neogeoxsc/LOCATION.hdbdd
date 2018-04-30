@@ -1,0 +1,9 @@
+namespace rjruss.neogeoxsc;
+@Schema : 'RJRUSSLOC'
+@Catalog.tableType: #COLUMN
+entity LOCATION {
+ EVENT : String(100);
+ LINK : String(100);
+ LAT : Decimal(12,9);
+ LON : Decimal(12,9);
+};

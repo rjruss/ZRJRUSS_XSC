@@ -1,0 +1,9 @@
+host = "dqmmicrou23133c2f-XXXXXXXXtrial.hanatrial.ondemand.com";
+port = 443;
+proxyType = http;
+proxyHost = "proxy-trial";
+proxyPort = 8080;
+useSSL = true;
+timeout = 30000;
+sslHostCheck = false;
+sslAuth = anonymous;

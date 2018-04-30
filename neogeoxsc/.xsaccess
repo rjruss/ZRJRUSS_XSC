@@ -1,0 +1,26 @@
+{
+    "exposed": true,
+    "authentication": [{
+        "method": "Form"
+    }],
+"cache_control": "must-revalidate",
+  "cors": {
+   "enabled": true,
+   "allowMethods": [
+   "GET",
+   "POST",
+   "HEAD",
+   "OPTIONS"
+   ],
+   "maxAge": "3600"
+  },
+    "mime_mapping": [{
+        "extension": "jpg",
+        "mimetype": "image/jpeg"
+    }],
+    "force_ssl": false,
+    "enable_etags": true,
+    "prevent_xsrf": true,
+    "anonymous_connection": null,
+    "default_file": "index.html"
+}
