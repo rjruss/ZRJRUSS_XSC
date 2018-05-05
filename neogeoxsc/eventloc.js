@@ -219,6 +219,8 @@ function moveme() {
 	var raster = new ol.layer.Tile({
 		source: new ol.source.XYZ({
 			url: hereURL
+		    attributions: 'Map Tiles &copy; ' + new Date().getFullYear() + ' ' +
+              '<a href="http://developer.here.com">HERE</a>'
 		})
 	});
 
